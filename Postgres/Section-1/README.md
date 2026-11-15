@@ -14,10 +14,6 @@
 - Calculated revenue using `price * units_sold`.
 - Used `AS` to rename the calculated result as `revenue`.
 
-### 3. Practicing WHERE Statements
-- Retrieved phone names and prices.
-- Used the WHERE clause to filter records.
-- Applied the condition `units_sold > 5000`.
 
 ## SQL Commands and Concepts
 
