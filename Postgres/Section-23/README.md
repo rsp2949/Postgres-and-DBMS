@@ -1,25 +1,22 @@
-
-
-# Section 23 – A Look at Indexes for Performance
+# Section 23 – Database Indexing Strategies and Query Optimization
 
 ## Overview
-Learned how indexes improve query performance and how PostgreSQL manages indexes internally.
+Explored how PostgreSQL utilizes indexes to accelerate data lookups, minimize full table scans, and balance read speed against write overhead.
 
 ## Topics Covered
-- Full Table Scans
-- Understanding Indexes
-- How an Index Works
-- Creating an Index
-- Benchmarking Queries
-- Downsides of Indexes
-- Index Types
-- Automatically Generated Indexes
-- Behind the Scenes of Indexes
+- Performance Bottlenecks of Sequential Full Table Scans
+- Core Concepts and Purpose of Database Indexing
+- Internal Mechanics of Index Lookup Operations
+- Defining and Building Custom Indexes in PostgreSQL
+- Measuring and Benchmarking Query Execution Times
+- Evaluating Index Trade-Offs (Storage Overhead and Write Penalties)
+- Overview of PostgreSQL Index Types (B-Tree, Hash, GIN, GiST)
+- System-Generated Indexes for Primary Keys and Unique Constraints
+- Exploring the Internal B-Tree Page Structure of Indexes
 
 ## Technology
 - PostgreSQL
 - SQL
 
 ## Learning Outcome
-Gained an understanding of database indexing, query optimization, and performance improvement.
-
+Developed the ability to optimize query execution plans, benchmark read performance, and make informed indexing decisions in PostgreSQL.
